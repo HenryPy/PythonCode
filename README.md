@@ -13,4 +13,12 @@
 - 里面是终端的代码+UI转的.py文件+图片资源转的.rcc资源
 
 ## 3 软件打包.exe
-- 这里就不作讲解了,上传两个打包好的文件,运行在行x64系统上
+- 这里就不作讲解了,上传两个打包好的文件,运行在行x64系统上!
+### 2.8 图片
+- 上几张设计UI图
+[登录](https://user-images.githubusercontent.com/90136935/187111831-218b1cf1-471d-4222-821e-584adee88d9c.JPG)
+![软件集成](https://user-images.githubusercontent.com/90136935/187111935-6f77a941-0cce-40c9-a19b-ab6508c2e913.jpg)
+![中控](https://user-images.githubusercontent.com/90136935/187111964-c9ee68ab-4b50-48d5-9ce0-6362a8d1e4ef.JPG)
+![终端](https://user-images.githubusercontent.com/90136935/187111972-e47b7a30-1a83-46b0-b850-736fac8d2135.JPG)
+![3](https://user-images.githubusercontent.com/90136935/187112018-79d1ae52-fd00-448f-8cc9-107c2531a0ba.jpg)
+![1](https://user-images.githubusercontent.com/90136935/187112040-4aff1d12-d2cb-4a2e-8dde-0909c2f1b95a.jpg)
