@@ -1,0 +1,4 @@
+python==3.9
+pycharm==2022.2
+pyqt5==5.154
+pyserial==3.5
