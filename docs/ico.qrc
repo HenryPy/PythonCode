@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>zd_0.png</file>
+    <file>zd.png</file>
+    <file>zk.png</file>
+    <file>js_1.png</file>
+    <file>sz_01.png</file>
+    <file>bz_1.png</file>
+    <file>arrow_t.png</file>
+    <file>js.png</file>
+    <file>lx.png</file>
+    <file>sjk.png</file>
+    <file>sz.png</file>
+    <file>arrow-down1.png</file>
+    <file>bz.png</file>
+    <file>closee.png</file>
+    <file>minn.png</file>
+    <file>login_qq.gif</file>
+    <file>login-bottom.png</file>
+    <file>login.ico</file>
+    <file>Wizard.ico</file>
+  </qresource>
+</RCC>

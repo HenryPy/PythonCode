@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>605</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>测试机模拟软件----V1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Wizard.ico</normaloff>Wizard.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 255);</string>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>608</width>
+      <height>426</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>608</width>
+      <height>426</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 85 30pt &quot;Berlin Sans FB&quot;;
+background-color: rgb(0,0,0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>测试机模拟软件</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>10</y>
+       <width>221</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,0,0);</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>211</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="1">
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{  
+	background-color: rgb(193, 191, 190); 	
+	
+}
+QPushButton:hover{  
+	;
+	background-color: rgb(132, 132, 132);
+}
+QPushButton:pressed{  
+	;
+	background-color: rgb(63, 63, 63);
+}</string>
+         </property>
+         <property name="text">
+          <string>清屏(&amp;E)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QTextEdit" name="textEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(198,198,198);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>411</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fasong">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_fasong">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{  
+	background-color: rgb(193, 191, 190); 	
+	
+}
+QPushButton:hover{  
+	;
+	background-color: rgb(132, 132, 132);
+}
+QPushButton:pressed{  
+	;
+	background-color: rgb(63, 63, 63);
+}</string>
+        </property>
+        <property name="text">
+         <string>发送到终端</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QComboBox" name="comboBox_com">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>120</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="placeholderText">
+      <string>COM选择</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>COM1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM8</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COM9</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="Button_chuankou">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>270</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  
+	background-color: rgb(193, 191, 190); 	
+	
+}
+QPushButton:hover{  
+	;
+	background-color: rgb(132, 132, 132);
+}
+QPushButton:pressed{  
+	;
+	background-color: rgb(63, 63, 63);
+}</string>
+     </property>
+     <property name="text">
+      <string>打开串口</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_botelv">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>150</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>9600</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14400</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19200</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>115200</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_jiaoyan">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>E</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>N</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>O</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>S</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_shujuwei">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>210</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_tingzhiwei">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>240</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1.5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(198,198,198);</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QRadioButton" name="radioButton_dan">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(198,198,198);</string>
+      </property>
+      <property name="text">
+       <string>单穴</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_shuang">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>双穴</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QComboBox" name="comboBox_log">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>80</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^001^002^NG!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>02^Z2816F014357^000^002^OK!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^001^002^OK!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^002^001^NG!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>02^Z2816F014357^000^001^OK!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^002^001^OK!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^002^003^NG!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>02^Z2816F014357^000^003^OK!</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>01^0123456789AB^002^003^OK!</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="Button_shengclog">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>120</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  
+	background-color: rgb(193, 191, 190); 	
+	
+}
+QPushButton:hover{  
+	;
+	background-color: rgb(132, 132, 132);
+}
+QPushButton:pressed{  
+	;
+	background-color: rgb(63, 63, 63);
+}</string>
+     </property>
+     <property name="text">
+      <string>按此生成LOG</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_26">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>160</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 收到CG回复:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_cg">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>160</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1^0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1^1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>0^1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1^0^0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>0^1^0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>0^0^1</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_miao">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>120</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>60</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>100</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>120</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 等待秒:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>190</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> log路径:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 串口号:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 波特率:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 校验位:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 数据位:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>ADMUI3Lg</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 191, 190);</string>
+     </property>
+     <property name="text">
+      <string> 停止位:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_log">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>190</y>
+       <width>134</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>134</width>
+       <height>21</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>131</width>
+       <height>21</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="save_buton">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>230</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  
+	background-color: rgb(193, 191, 190); 	
+	
+}
+QPushButton:hover{  
+	;
+	background-color: rgb(132, 132, 132);
+}
+QPushButton:pressed{  
+	;
+	background-color: rgb(63, 63, 63);
+}</string>
+     </property>
+     <property name="text">
+      <string>保存配置</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>605</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(198, 198, 198);</string>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="actionshanchulog"/>
+   </widget>
+   <addaction name="menu_F"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(198, 198, 198);</string>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actiondakaipeizhiwenjian">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Picturere/Picture/right2.png</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>查看配置文件内容(&amp;L)</string>
+   </property>
+  </action>
+  <action name="actiondakaipeizhiwenjian_2">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Picturere/Picture/square_add.png</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>打开配置文件(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionquanbuchushihua_I">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Basilisk.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>全部初始化(&amp;I)</string>
+   </property>
+  </action>
+  <action name="actionceshi_T">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Basilisk.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>测试(&amp;T)</string>
+   </property>
+   <property name="priority">
+    <enum>QAction::HighPriority</enum>
+   </property>
+  </action>
+  <action name="actioncaozuoPLC_O">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Djinni.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>操作PLC(&amp;O)</string>
+   </property>
+  </action>
+  <action name="actionCanshushezhi_P">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Sorceress.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>参数设置(&amp;P)</string>
+   </property>
+  </action>
+  <action name="actionjinzhi_N">
+   <property name="text">
+    <string>jinzhi(&amp;N)</string>
+   </property>
+   <property name="iconText">
+    <string>禁止(N)</string>
+   </property>
+  </action>
+  <action name="actionxunyu_Y">
+   <property name="text">
+    <string>允许(&amp;Y)</string>
+   </property>
+  </action>
+  <action name="actiondakaishujukufuwuqi">
+   <property name="text">
+    <string>打开测试卷串口</string>
+   </property>
+  </action>
+  <action name="actionguanbishujukufuwuqi">
+   <property name="text">
+    <string>关闭测试机串口</string>
+   </property>
+  </action>
+  <action name="actionlianjieshujuku_L">
+   <property name="text">
+    <string>连接数据库(&amp;L)</string>
+   </property>
+  </action>
+  <action name="actionduankaishujuku_C">
+   <property name="text">
+    <string>打开数据库(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionpanduan_Y">
+   <property name="text">
+    <string>是(&amp;Y)</string>
+   </property>
+  </action>
+  <action name="actionbupanduan_N">
+   <property name="text">
+    <string>否(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actionyicitongguo_O">
+   <property name="text">
+    <string>一次通过(&amp;O)</string>
+   </property>
+  </action>
+  <action name="actionchankandangqianzhuangtai_S">
+   <property name="text">
+    <string>查看当前状态(&amp;S)</string>
+   </property>
+  </action>
+  <action name="actionjilu_R">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Valkyrie.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>查看(&amp;R)</string>
+   </property>
+  </action>
+  <action name="actionshegnchengdejieguo_G">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Earth Elemental.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>生成的结果(&amp;G)</string>
+   </property>
+  </action>
+  <action name="actionpeizhicanshulujing_M">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Picturere/Picture/rightdown.png</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>配置参数路径(&amp;M)</string>
+   </property>
+  </action>
+  <action name="actionzhegnchangshenchan_N">
+   <property name="text">
+    <string>正常生成(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actionshouliaomoshi_C">
+   <property name="text">
+    <string>收料模式(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionshi_Y">
+   <property name="text">
+    <string>是(&amp;Y)</string>
+   </property>
+  </action>
+  <action name="actionfou_N">
+   <property name="text">
+    <string>否(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actionzhongkongjima_P">
+   <property name="text">
+    <string>中控记码(&amp;P)</string>
+   </property>
+  </action>
+  <action name="actionchongxinsaoma_I">
+   <property name="text">
+    <string>重新扫码(&amp;I)</string>
+   </property>
+  </action>
+  <action name="actionqiyong_U">
+   <property name="text">
+    <string>启用(&amp;U)</string>
+   </property>
+  </action>
+  <action name="actionjinyong_N">
+   <property name="text">
+    <string>禁用(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actionchakanbangzhu_V">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Wizard.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>查看帮助(&amp;V)</string>
+   </property>
+  </action>
+  <action name="actionxiangjishezhi">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Djinni.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>相机设置(&amp;T)</string>
+   </property>
+  </action>
+  <action name="actionSoftwareceshi_T">
+   <property name="icon">
+    <iconset>
+     <selectedoff>:/Iconn/Icon/Djinni.ico</selectedoff>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Software测试(&amp;T)</string>
+   </property>
+  </action>
+  <action name="actionjiemianxianshi">
+   <property name="text">
+    <string>界面显示</string>
+   </property>
+  </action>
+  <action name="actionduqurizhi">
+   <property name="text">
+    <string>读取测试机日志</string>
+   </property>
+  </action>
+  <action name="actionjieshou_zk">
+   <property name="text">
+    <string>接收中控信息</string>
+   </property>
+  </action>
+  <action name="actionjieshou_csj">
+   <property name="text">
+    <string>接受测试机信息</string>
+   </property>
+  </action>
+  <action name="action_kaishi">
+   <property name="text">
+    <string> 面板显示</string>
+   </property>
+  </action>
+  <action name="actionsaomiaolog">
+   <property name="text">
+    <string> 扫描Log</string>
+   </property>
+   <property name="iconText">
+    <string> 扫描Log</string>
+   </property>
+  </action>
+  <action name="actionshanchulog">
+   <property name="text">
+    <string> 删除log</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ico.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>66</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>175</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
